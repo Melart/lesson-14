@@ -6,7 +6,7 @@ gulp.task('default', () => {
     gulp.src('./node_modules/bootstrap/dist/css/bootstrap.min.css')
         .pipe(gulp.dest("./src/style"))
 
-    gulp.src('./src/style/*.css')
+    gulp.src('./src/*.css')
         .pipe(gulp.dest("./build/style"))
     
     gulp.src('./src/index.html')

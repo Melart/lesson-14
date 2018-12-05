@@ -9,6 +9,10 @@ p {
 header {
     padding-top: 74px;
 }
+#size {
+    border: none;
+    background-color: transparent;
+}
 .bag {
     font-size: 15px;
 }

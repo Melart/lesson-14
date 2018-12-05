@@ -91,7 +91,12 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _button_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
 
+
+
+
+Object(_select__WEBPACK_IMPORTED_MODULE_1__["default"])();
     
 
 
@@ -755,6 +760,22 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 7 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return f; });
+function f() {
+    const size = ["XS","S","M","L","XL" ];
+    const option = document.querySelectorAll('option'); 
+
+    for( let i = 0; i <= option.length; i++) {
+        option[i].textContent = size[i];
+    }
+}
 
 /***/ })
 /******/ ]);
